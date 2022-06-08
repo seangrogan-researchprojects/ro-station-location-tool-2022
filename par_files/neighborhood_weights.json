@@ -1,0 +1,24 @@
+{
+  "feasible": {
+    "removal_random": 50,
+    "removal_weighted_most_often": 10,
+    "removal_weighted_least_often": 150,
+    "swap_random": 50,
+    "swap_intelligent": 25,
+    "add": 1
+  },
+  "infeasible": {
+    "removal_random": 0,
+    "removal_weighted_most_often": 0,
+    "removal_weighted_least_often": 0,
+    "swap_random": 9,
+    "swap_intelligent": 3,
+    "add": 1
+  },
+  "late_stage_overrides":
+  {
+    "add" : 0,
+    "swap_random" : 50,
+    "swap_intelligent" : 50
+  }
+}
